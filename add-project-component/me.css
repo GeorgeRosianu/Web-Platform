@@ -1,0 +1,53 @@
+:root {
+  --dark: #2b2d42;
+  --light: #adb5bd;
+  --border: #dee2e6;
+  --border-btn: #edf2f4;
+  background: rgb(211, 211, 211)
+}
+.title {
+  text-align: center;
+  color: #493853;
+  font-family: sans-serif;
+}
+#profile_information {
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+}
+.form_group {
+  border-top: 2px solid #f0f0f0;
+  padding: 10px;
+}
+
+.details {
+  max-width: 70vh;
+  margin: auto;
+  padding: 40px;
+}
+.label_text {
+  display: inline-block;
+  width: 200px;
+  text-align: left;
+  color: #493853;
+  font-family: sans-serif;
+  font-size: 25;
+  padding: 20px;
+}
+.input_text {
+  width: 100vh;
+  padding: 20em 0.3em;
+  margin: 0.5em 0;
+  color: var(--light);
+  font-family: sans-serif;
+  font-size: 25;
+  border-radius: 0.2em;
+}
+.profile_picture {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 5px;
+  width: 20vh;
+  vertical-align: middle;
+}
